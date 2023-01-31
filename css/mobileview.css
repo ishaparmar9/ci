@@ -1,0 +1,144 @@
+#main-box
+{
+    background: #ffffff 0% 0% no-repeat padding-box;
+    width: 100%;
+    height: 500px;
+}
+
+#img-container
+{
+    margin: 0px;
+    width: 100%;
+    height: 25%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    box-shadow: 0px 4px 31px #0000000A;
+    background-color: black;
+    background: transparent url("/images/hero-image.png") 0% 0% repeat padding-box;
+    background-size: cover; 
+}
+#content-container
+{
+   padding: 15%;
+   padding-top: 30px;
+   display: inline-block;
+   text-align: center;
+}
+
+#head-img
+{
+    width: 100%;
+    height: 40px;
+    display: inline-block;
+    margin-bottom: 19px;
+    margin-top: 10px;
+}
+#content1
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    letter-spacing: 0px;
+    color: #3E3E3E;
+    display: inline-block;
+    text-align: center;
+    width: 90%;
+    height: fit-content;
+    font-weight: 500;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#content2
+{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    color: #3E3E3E;
+    display: inline-block;
+    height: 15px;
+    padding-top: 20px;
+    padding-bottom: 23.5px;
+    width: 100%;
+}
+
+.input-style
+{
+    display: inline-block;
+    background-color: #FFFFFF;
+    border: 1px solid #ADADAD ;
+    border-radius: 5px;
+    font-size: 12px;
+    width: 75%;
+    height: 5px;
+    padding: 14.5px;
+}
+
+#sub-container
+{
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    text-align: center;
+    width: 100%;
+}
+
+#login-btn
+{
+    background-color: #C8242F;
+    color: #FFFFFF;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 9px;
+    border-radius: 30px;
+    border: none;
+    margin-top: 15px;
+    margin-left: 0px;
+    width: 50px;
+    height: 23px;
+    display: inline-block;
+}
+
+#frgt-pass-link
+{
+    margin-left: 60px;
+    margin-top: 20px;
+    display: inline-block;
+    color: #ADADAD;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 7px;
+}
+#register-link
+{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    color: #ADADAD;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 7px;
+    height: 20px;
+}
+
+/* --------------------------------------------------------------------------------------------------------- */
+
+
+/* --------------------------DASHBOARD STYLING-------------------------------------------------------------- */
+
+.stats-box
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FFFFFF;
+}
+
+#sales-graph-box
+{
+    margin: auto;
+}
+
+#pie-chart-box
+{
+    margin-top: 30px;
+    margin: auto;
+}
